@@ -16,18 +16,19 @@
   <meta name="author" content="Yuki">
   <meta name="keywords" content="">
   
-    <meta name="description" content="社交网络分析|生成星型网络、全连接网络、环状网络生成随机图12345678910import networkx as nximport matplotlib.pyplot as pltimport random# 生成一个随机图（20个节点，0.2概率相连）G &#x3D; nx.gnp_random_graph(20, 0.2)# 画出原始图nx.draw(G, with_labels&#x3D;True)plt">
+    <meta name="description" content="社交网络分析|生成星型网络、全连接网络、环状网络社交网络分析，使用networkx生成、matplotlib绘制各个类型的网络">
 <meta property="og:type" content="article">
 <meta property="og:title" content="社交网络分析|生成星型网络、全连接网络、环状网络">
 <meta property="og:url" content="http://yunqi-2023.github.io/2023/10/24/%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90-%E7%94%9F%E6%88%90%E6%98%9F%E5%9E%8B%E7%BD%91%E7%BB%9C%E3%80%81%E5%85%A8%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C%E3%80%81%E7%8E%AF%E7%8A%B6%E7%BD%91%E7%BB%9C/index.html">
 <meta property="og:site_name" content="Yuki&#39;s Blog">
-<meta property="og:description" content="社交网络分析|生成星型网络、全连接网络、环状网络生成随机图12345678910import networkx as nximport matplotlib.pyplot as pltimport random# 生成一个随机图（20个节点，0.2概率相连）G &#x3D; nx.gnp_random_graph(20, 0.2)# 画出原始图nx.draw(G, with_labels&#x3D;True)plt">
+<meta property="og:description" content="社交网络分析|生成星型网络、全连接网络、环状网络社交网络分析，使用networkx生成、matplotlib绘制各个类型的网络">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-10-24T06:48:13.000Z">
-<meta property="article:modified_time" content="2023-10-24T06:50:48.532Z">
+<meta property="article:modified_time" content="2023-10-24T06:54:54.795Z">
 <meta property="article:author" content="Yuki">
 <meta property="article:tag" content="python">
-<meta property="article:tag" content="社交网络分析，networkx">
+<meta property="article:tag" content="社交网络分析">
+<meta property="article:tag" content="networkx">
 <meta name="twitter:card" content="summary_large_image">
   
   
@@ -248,7 +249,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          609 字
+          648 字
         
       </span>
     
@@ -302,7 +303,10 @@
               <div class="markdown-body">
                 
                 <hr>
-<h1 id="社交网络分析-生成星型网络、全连接网络、环状网络"><a href="#社交网络分析-生成星型网络、全连接网络、环状网络" class="headerlink" title="社交网络分析|生成星型网络、全连接网络、环状网络"></a>社交网络分析|生成星型网络、全连接网络、环状网络</h1><h2 id="生成随机图"><a href="#生成随机图" class="headerlink" title="生成随机图"></a>生成随机图</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> networkx <span class="hljs-keyword">as</span> nx<br><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt<br><span class="hljs-keyword">import</span> random<br><br><span class="hljs-comment"># 生成一个随机图（20个节点，0.2概率相连）</span><br>G = nx.gnp_random_graph(<span class="hljs-number">20</span>, <span class="hljs-number">0.2</span>)<br><br><span class="hljs-comment"># 画出原始图</span><br>nx.draw(G, with_labels=<span class="hljs-literal">True</span>)<br>plt.show()<br></code></pre></td></tr></table></figure>
+<h1 id="社交网络分析-生成星型网络、全连接网络、环状网络"><a href="#社交网络分析-生成星型网络、全连接网络、环状网络" class="headerlink" title="社交网络分析|生成星型网络、全连接网络、环状网络"></a>社交网络分析|生成星型网络、全连接网络、环状网络</h1><p>社交网络分析，使用networkx生成、matplotlib绘制各个类型的网络</p>
+<span id="more"></span>
+
+<h2 id="生成随机图"><a href="#生成随机图" class="headerlink" title="生成随机图"></a>生成随机图</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> networkx <span class="hljs-keyword">as</span> nx<br><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt<br><span class="hljs-keyword">import</span> random<br><br><span class="hljs-comment"># 生成一个随机图（20个节点，0.2概率相连）</span><br>G = nx.gnp_random_graph(<span class="hljs-number">20</span>, <span class="hljs-number">0.2</span>)<br><br><span class="hljs-comment"># 画出原始图</span><br>nx.draw(G, with_labels=<span class="hljs-literal">True</span>)<br>plt.show()<br></code></pre></td></tr></table></figure>
 
 <h2 id="生成星型网络"><a href="#生成星型网络" class="headerlink" title="生成星型网络"></a>生成星型网络</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment">#生成n个节点的星形网络</span><br>n = <span class="hljs-number">8</span><br>G = nx.Graph()<br><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">1</span>,n):<br>    G.add_edge(i,n)<br>    <br><span class="hljs-comment">#绘制图像</span><br>nx.draw(G, with_labels=<span class="hljs-literal">True</span>)<br>plt.show(G)<br></code></pre></td></tr></table></figure>
 
@@ -327,7 +331,9 @@
       
         <a href="/tags/python/" class="print-no-link">#python</a>
       
-        <a href="/tags/%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90%EF%BC%8Cnetworkx/" class="print-no-link">#社交网络分析，networkx</a>
+        <a href="/tags/%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90/" class="print-no-link">#社交网络分析</a>
+      
+        <a href="/tags/networkx/" class="print-no-link">#networkx</a>
       
     </div>
   
@@ -383,6 +389,12 @@
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/2023/10/24/%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90-%E6%A8%A1%E6%8B%9F%E6%94%BB%E5%87%BB%E5%8F%8A%E5%8F%AF%E8%A7%86%E5%8C%96%E3%80%81%E9%B2%81%E6%A3%92%E6%80%A7%E6%A3%80%E9%AA%8C/" title="社交网络分析|模拟攻击及可视化、鲁棒性检验">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">社交网络分析|模拟攻击及可视化、鲁棒性检验</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">
